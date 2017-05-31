@@ -15,6 +15,7 @@
 		498CC5B01EDF2A420023FA37 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498CC5AF1EDF2A420023FA37 /* ActionViewController.swift */; };
 		498CC5B31EDF2A420023FA37 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498CC5B11EDF2A420023FA37 /* MainInterface.storyboard */; };
 		498CC5B71EDF2A420023FA37 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 498CC5AD1EDF2A420023FA37 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		498CC5BD1EDF34540023FA37 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = 498CC5BC1EDF34540023FA37 /* Action.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		498CC5AF1EDF2A420023FA37 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
 		498CC5B21EDF2A420023FA37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		498CC5B41EDF2A420023FA37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498CC5BC1EDF34540023FA37 /* Action.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				498CC5AF1EDF2A420023FA37 /* ActionViewController.swift */,
 				498CC5B11EDF2A420023FA37 /* MainInterface.storyboard */,
 				498CC5B41EDF2A420023FA37 /* Info.plist */,
+				498CC5BC1EDF34540023FA37 /* Action.js */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				498CC5BD1EDF34540023FA37 /* Action.js in Resources */,
 				498CC5B31EDF2A420023FA37 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
